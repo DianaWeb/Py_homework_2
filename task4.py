@@ -13,9 +13,9 @@ print(my_list)
 indexes = (input('Введите индексы:  '))
 # print(indexes)
 # print(type(indexes))
-str = indexes.split(' ')
-# print(str)
-nums = list(map(int, str))
+my_str = indexes.split(' ')
+# print(my_str)
+nums = list(map(int, my_str))
 # print(nums)
 
 result = 1
